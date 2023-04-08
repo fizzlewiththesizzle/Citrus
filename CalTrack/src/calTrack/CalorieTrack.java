@@ -25,7 +25,7 @@ public class CalorieTrack {
 	
 	public void write() throws FileNotFoundException
 	{
-		PrintWriter pw= new PrintWriter("D:\\JavaPhoton Tings\\CalTrack Output\\calories.txt");
+		PrintWriter pw= new PrintWriter("calories.txt");
 		for (String i : calmap.keySet()) { 
 			pw.println(i + ": " + calmap.get(i)); 	
 			//pw.println("Total: " + calCount);
