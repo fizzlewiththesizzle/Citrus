@@ -3,6 +3,8 @@ package calTrack;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.HashMap;
 
 import javafx.application.Application;
@@ -45,9 +47,11 @@ public class CalTrackGUI extends Application {
 		
 		BMI bmi= new BMI();
 		primaryStage.setTitle("Citrus");
-		primaryStage.getIcons().add(new Image("file:citrus-icon.png"));
+		primaryStage.getIcons().add(new Image("file:CalTrack/citrus-icon.png"));
+		Path current = Paths.get(".");
+		System.out.print(current.toAbsolutePath());
 
-		Image image = new Image("file:citrus header_small.png"); 
+		Image image = new Image("file:CalTrack/citrus header_small.png"); 
 		ImageView logo = new ImageView(image); 
 	    logo.setFitHeight(400); 
 	    logo.setFitWidth(400);
