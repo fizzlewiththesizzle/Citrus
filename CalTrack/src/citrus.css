@@ -1,0 +1,142 @@
+.root{
+	-fx-background-color: #2A2A2A;
+	-fx-font-size: 16.0px;
+	-fx-font-family: "Roboto";
+	-fx-control-inner-background-alt: -fx-control-inner-background ;
+}
+
+.label{
+	-fx-text-fill: #FFFFFF;
+}
+
+.button{
+	-fx-background-color: #FF6F00;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 8;
+	-fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.30), 6.0, 0.3, 0,1);
+	
+}
+
+.button:pressed { 
+    -fx-background-color: #EF6C00;
+}
+
+.text {
+	-fx-font-smoothing-type: null;
+}
+
+.text-area, .text-field {
+	-fx-background-color: transparent;
+	-fx-background-radius: 2.0;
+	-fx-padding: 0.5em 0.5em 0.5em 0.1em;
+	-fx-border-color: #FFFFFF;
+	-fx-border-width: 0 0 2 0;
+	-fx-prompt-text-fill: #FFFFFF;
+	-fx-highlight-fill: #0091ff;
+	-fx-text-fill: #000000;
+}
+
+.text-area .text, .text-field>*>.text {
+	-fx-effect: null;
+	-fx-fill: #FFFFFF;
+}
+
+.text-area {
+	-fx-padding: 0.15em;
+}
+
+.text-area .content {
+	-fx-padding: 0.7em;
+	-fx-border-width: 0.0;
+	-fx-background-color: transparent;
+}
+
+.text-area:focused  .content {
+	-fx-background-color: transparent;
+}
+
+.text-area:focused, .text-field:focused {
+	-fx-border-color: #FF6F00;
+}
+
+.spinner {
+	-fx-background-color: transparent;
+	-fx-border-width: 0 0 0 0;
+	-fx-border-color: #FFFFFF;
+	-fx-border-padding: 0.5em 0.5em 0.5em 0.1em;
+	-fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.30), 6.0, 0.3, 0,1);
+}
+
+.spinner:focused {
+	-fx-border-color: #FF6F00;
+	
+}
+
+.spinner .text-field {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 0;
+	-fx-border-width: 0;
+	-fx-padding: 0.5em 0.5em 0.5em 0.1em;
+	-fx-prompt-text-fill: #000000;
+	-fx-highlight-fill: #0091ff;
+}
+
+.spinner .increment-arrow-button .increment-arrow, .spinner .decrement-arrow-button .decrement-arrow
+	{
+	-fx-background-color: #FFFFFF;
+	
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: #FF6F00;
+    -fx-border-width: 0;
+    -fx-focus-color: transparent;
+}
+
+.spinner .increment-arrow-button:pressed,
+.spinner .decrement-arrow-button:pressed {
+    -fx-background-color: #EF6C00;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #FF6F00;
+}
+
+.table-cell{
+    -fx-border-color: #EEEEEE;
+    -fx-border-width: 0.4;   
+}
+
+croll-bar:vertical>.track-background, .scroll-bar:horizontal>.track-background
+	{
+	-fx-background-color: #FFFFFF;
+	-fx-background-insets: 0.0;
+}
+
+.scroll-bar:vertical>.thumb, .scroll-bar:horizontal>.thumb {
+	-fx-background-color: #FF6F00;
+	-fx-background-insets: 0.0;
+	-fx-background-radius: 4.0;
+}
+
+.scroll-bar>.increment-button, .scroll-bar>.decrement-button,
+	.scroll-bar:hover>.increment-button, .scroll-bar:hover>.decrement-button
+	{
+	-fx-background-color: transparent;
+}
+
+.scroll-bar>.increment-button>.increment-arrow, .scroll-bar>.decrement-button>.decrement-arrow
+	{
+	-fx-background-color: #9E9E9E;
+}
+
+.scroll-bar>.track-background {
+	-fx-background-color: transparent;
+}
