@@ -1,4 +1,5 @@
-# Citrus
+
+# <img src="CalTrack/resources/citrus icon.png" alt="Citrus logo" style="width:60px;"/> Citrus
 <p align="center">
  <img src="CalTrack/citrus header_small.png" width="50%" height="50%">
 </p>
